@@ -2,5 +2,5 @@
 Encontre conexões direct/ssl
 
 ``
-apt-get update && apt-get install git && git clone https://github.com/LucasF-coder/scan && cd scan && python3 scan.py
+pkg update && pkg install git && git clone https://github.com/LucasF-coder/scan && cd scan && pkg install python && pkg install python-pip && python3 scan.py
 ``
