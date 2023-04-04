@@ -1,0 +1,25 @@
+Necessário ter python 3.7 ou superior
+
+
+Edite payloads no arquivo payload.json
+
+Pode usar parâmetros [dominioFlare] ou [dominioFront] para o script alterar pelo seu dominio.
+
+Exemplo:
+GET / HTTP/1.1[crlf]Host: [dominioFlare][crlf]Connection: Upgrade[crlf] User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+
+Precisa colocar seu dominio nas configurações do script. Basta iniciar ele
+python3 scanner.py
+Digitar 1
+Selecionar cloudflare ou cloudfront e digitar seu dominio
+
+Para sair das configurações digite sair
+
+Não apague os arquivos:
+config.json
+payloads.json
+scan.py
+data.bin
+
+
+Quanto maior a lista de proxies para testar, mais tempo irá levar para iniciar. 
