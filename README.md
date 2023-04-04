@@ -2,5 +2,5 @@
 Encontre conexões direct/ssl
 
 ``
-git clone https://github.com/LucasF-coder/scan
+apt-get update && apt-get install git && git clone https://github.com/LucasF-coder/scan && cd scan
 ``
