@@ -4,9 +4,11 @@ Necessário ter python 3.7 ou superior
 Edite payloads no arquivo payload.json
 
 Pode usar parâmetros [dominioFlare] ou [dominioFront] para o script alterar pelo seu dominio.
+O parametro [bughost] troca pelo proxy/sni
+
 
 Exemplo:
-GET / HTTP/1.1[crlf]Host: [dominioFlare][crlf]Connection: Upgrade[crlf] User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+GET wss://[bughost]/ HTTP/1.1[crlf]Host: [dominioFlare][crlf]Connection: Upgrade[crlf] User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
 
 Precisa colocar seu dominio nas configurações do script. Basta iniciar ele
 python3 scanner.py
@@ -22,4 +24,3 @@ scan.py
 data.bin
 
 
-Quanto maior a lista de proxies para testar, mais tempo irá levar para iniciar. 
